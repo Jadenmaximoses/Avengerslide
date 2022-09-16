@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+
+box-sizing: border-box;
+}
+
+
+body{
+   font-family: 'Roboto', sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content:center ;
+   height:100vh;
+   overflow: hidden;
+   margin:0;
+}
+
+.bg{ 
+    background:url('https://vpnoverview.com/wp-content/uploads/what-is-a-hacker-what-is-hacking-featured.png') ;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw);
+    height: calc(100vh);
+    z-index: -1;
+    filter: blur(0px);
+
+
+}
+
+.loading{
+
+    font-size: 50px;
+    color: #fff;
+}
